@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from '../src/components/Header'
 import './App.css';
 
 function App() {
   return (
     // BEM class naming
-    <div className="pp">
-      <h1>Lets build the MERN TINDER clone guys!!!</h1>
+    <div className="app">
+      <Header />
+      {/* TinderCard */}
+      {/* SwipeButtons */}
     </div>
   );
 }
